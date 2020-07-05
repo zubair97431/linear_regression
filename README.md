@@ -1,1 +1,4 @@
 # linear_regression
+
+## "Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans." Therefore, this project required me to build and avaluate models using resampling.  
+## Overall, it seems the algorithms in oversampling, undersampling, and the combinations of both did not have great scores of success. They were mostly under the 70% threshold. Moving on to the "Ensemble" worksheet, it appears the average scores were a better indication of success for the loan_status column. Specifically, the balanced accuracy score was at a 99% and the averages for the precision/recall scores were at a 99%. This algorithm will be perfect to use moving forward for the success of the loan. This is a good opportunity for data analysts to predict credit risk in the most efficient way possible and provide that information to financial lending companies such as LendingClub. 
